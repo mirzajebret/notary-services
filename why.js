@@ -1,16 +1,16 @@
 const services = {
     notary: [
-        { id: 1, name: "\nPembuatan Akta Yayasan", requirements: ["\ndentitas Diri (KTP)", "\nAkta Pendiri Yayasan"] },
-        { id: 2, name: "\nPembuatan Akta PT", requirements: ["\nIdentitas Diri (KTP)", "\nAnggaran Dasar"] },
-        { id: 3, name: "\nPembuatan Akta CV", requirements: ["\nIdentitas Diri (KTP)", "\nData Pemilik"] },
-        { id: 4, name: "\nPembuatan Akta Perkumpulan", requirements: ["\nIdentitas Diri (KTP)", "\nData Anggota"] },
+        { id: 1, name: "Pembuatan Akta Yayasan", requirements: ["*identitas Diri (KTP)", "\n*Akta Pendiri Yayasan"] },
+        { id: 2, name: "Pembuatan Akta PT", requirements: ["*Identitas Diri (KTP)", "\n*Anggaran Dasar"] },
+        { id: 3, name: "Pembuatan Akta CV", requirements: ["*Identitas Diri (KTP)", "\n*Data Pemilik"] },
+        { id: 4, name: "Pembuatan Akta Perkumpulan", requirements: ["*Identitas Diri (KTP)", "\n*Data Anggota"] },
     ],
     ppat: [
-        { id: 5, name: "\nPembuatan SKMHT", requirements: ["\nIdentitas Diri (KTP)", "\nData Tanah"] },
-        { id: 6, name: "\nPembuatan APHT", requirements: ["\nIdentitas Diri (KTP)", "\nDokumen Jaminan"] },
-        { id: 7, name: "\nPembuatan AJB", requirements: ["\nIdentitas Diri (KTP)", "\nSertifikat Tanah"] },
-        { id: 8, name: "\nPembuatan Akta Hibah", requirements: ["\nIdentitas Diri (KTP)", "\nSertifikat Tanah"] },
-        { id: 9, name: "\nPembuatan Akta Waris", requirements: ["\nIdentitas Diri (KTP)", "\nDokumen Waris"] },
+        { id: 5, name: "Pembuatan SKMHT", requirements: ["*Identitas Diri (KTP)", "\n*Data Tanah"] },
+        { id: 6, name: "Pembuatan APHT", requirements: ["*Identitas Diri (KTP)", "\n*Dokumen Jaminan"] },
+        { id: 7, name: "Pembuatan AJB", requirements: ["*Identitas Diri (KTP)", "\n*Sertifikat Tanah"] },
+        { id: 8, name: "Pembuatan Akta Hibah", requirements: ["*Identitas Diri (KTP)", "\n*Sertifikat Tanah"] },
+        { id: 9, name: "Pembuatan Akta Waris", requirements: ["*Identitas Diri (KTP)", "\n*Dokumen Waris"] },
     ]
 };
 
@@ -63,7 +63,7 @@ function submitRequirements() {
 
     if (selectedService) {
         const requirements = selectedService.requirements.join(', ');
-        const message = `Layanan: ${selectedService.name}\nPersyaratan: ${requirements}\n\nPermohonan telah dikirim!`;
+        const message = `*Layanan:*\n ${selectedService.name}\n*Persyaratan:*\n ${requirements}\n\n_Permohonan telah dikirim!_`;
 
         // Replace 'YOUR_PHONE_NUMBER' with your actual WhatsApp number (in international format)
         const whatsappNumber = '6281321245011';
