@@ -1,16 +1,16 @@
 const services = {
     notary: [
-        { id: 1, name: "Pembuatan Akta Yayasan", requirements: ["*identitas Diri (KTP)", "\n*Akta Pendiri Yayasan"] },
-        { id: 2, name: "Pembuatan Akta PT", requirements: ["*Identitas Diri (KTP)", "\n*Anggaran Dasar"] },
-        { id: 3, name: "Pembuatan Akta CV", requirements: ["*Identitas Diri (KTP)", "\n*Data Pemilik"] },
-        { id: 4, name: "Pembuatan Akta Perkumpulan", requirements: ["*Identitas Diri (KTP)", "\n*Data Anggota"] },
+        { id: 1, name: "Pembuatan Akta Yayasan", requirements: ["identitas Diri (KTP)", "\nAkta Pendiri Yayasan"] },
+        { id: 2, name: "Pembuatan Akta PT", requirements: ["Identitas Diri (KTP)", "\nAnggaran Dasar"] },
+        { id: 3, name: "Pembuatan Akta CV", requirements: ["Identitas Diri (KTP)", "\nData Pemilik"] },
+        { id: 4, name: "Pembuatan Akta Perkumpulan", requirements: ["Identitas Diri (KTP)", "\nData Anggota"] },
     ],
     ppat: [
-        { id: 5, name: "Pembuatan SKMHT", requirements: ["*Identitas Diri (KTP)", "\n*Data Tanah"] },
-        { id: 6, name: "Pembuatan APHT", requirements: ["*Identitas Diri (KTP)", "\n*Dokumen Jaminan"] },
-        { id: 7, name: "Pembuatan AJB", requirements: ["*Identitas Diri (KTP)", "\n*Sertifikat Tanah"] },
-        { id: 8, name: "Pembuatan Akta Hibah", requirements: ["*Identitas Diri (KTP)", "\n*Sertifikat Tanah"] },
-        { id: 9, name: "Pembuatan Akta Waris", requirements: ["*Identitas Diri (KTP)", "\n*Dokumen Waris"] },
+        { id: 5, name: "Pembuatan SKMHT", requirements: ["Identitas Diri (KTP)", "\nData Tanah"] },
+        { id: 6, name: "Pembuatan APHT", requirements: ["Identitas Diri (KTP)", "\nDokumen Jaminan"] },
+        { id: 7, name: "Pembuatan AJB", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 8, name: "Pembuatan Akta Hibah", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 9, name: "Pembuatan Akta Waris", requirements: ["Identitas Diri (KTP)", "\nDokumen Waris"] },
     ]
 };
 
