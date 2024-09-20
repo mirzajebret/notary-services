@@ -6,11 +6,11 @@ const services = {
         { id: 4, name: "\nPembuatan Akta Perkumpulan", requirements: ["\nIdentitas Diri (KTP)", "\nData Anggota"] },
     ],
     ppat: [
-        { id: 5, name: "Pembuatan SKMHT", requirements: ["Identitas Diri (KTP)", "Data Tanah"] },
-        { id: 6, name: "Pembuatan APHT", requirements: ["Identitas Diri (KTP)", "Dokumen Jaminan"] },
-        { id: 7, name: "Pembuatan AJB", requirements: ["Identitas Diri (KTP)", "Sertifikat Tanah"] },
-        { id: 8, name: "Pembuatan Akta Hibah", requirements: ["Identitas Diri (KTP)", "Sertifikat Tanah"] },
-        { id: 9, name: "Pembuatan Akta Waris", requirements: ["Identitas Diri (KTP)", "Dokumen Waris"] },
+        { id: 5, name: "\nPembuatan SKMHT", requirements: ["\nIdentitas Diri (KTP)", "\nData Tanah"] },
+        { id: 6, name: "\nPembuatan APHT", requirements: ["\nIdentitas Diri (KTP)", "\nDokumen Jaminan"] },
+        { id: 7, name: "\nPembuatan AJB", requirements: ["\nIdentitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 8, name: "\nPembuatan Akta Hibah", requirements: ["\nIdentitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 9, name: "\nPembuatan Akta Waris", requirements: ["\nIdentitas Diri (KTP)", "\nDokumen Waris"] },
     ]
 };
 
@@ -63,7 +63,7 @@ function submitRequirements() {
 
     if (selectedService) {
         const requirements = selectedService.requirements.join(', ');
-        const message = `Layanan: ${selectedService.name}\nPersyaratan: ${requirements}\nPermohonan telah dikirim!`;
+        const message = `Layanan: ${selectedService.name}\nPersyaratan: ${requirements}\n\nPermohonan telah dikirim!`;
 
         // Replace 'YOUR_PHONE_NUMBER' with your actual WhatsApp number (in international format)
         const whatsappNumber = '6281321245011';
