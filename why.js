@@ -11,6 +11,13 @@ const services = {
         { id: 7, name: "Pembuatan AJB", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
         { id: 8, name: "Pembuatan Akta Hibah", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
         { id: 9, name: "Pembuatan Akta Waris", requirements: ["Identitas Diri (KTP)", "\nDokumen Waris"] },
+    ],
+     lainnya: [
+        { id: 10, name: "Pengecekan Sertifikat", requirements: ["Identitas Diri (KTP)", "\nData Tanah"] },
+        { id: 11, name: "Roya", requirements: ["Identitas Diri (KTP)", "\nDokumen Jaminan"] },
+        { id: 12, name: "Bailk Nama Sertifikat", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 13, name: "Pengurusan Perpajakan", requirements: ["Identitas Diri (KTP)", "\nSertifikat Tanah"] },
+        { id: 14, name: "Perijinan Perusahaan", requirements: ["Identitas Diri (KTP)", "\nDokumen Waris"] },
     ]
 };
 
