@@ -1,9 +1,9 @@
 const services = {
     notary: [
-        { id: 1, name: "Pembuatan Akta Yayasan", requirements: ["Identitas Diri (KTP)", "Akta Pendiri Yayasan"] },
-        { id: 2, name: "Pembuatan Akta PT", requirements: ["Identitas Diri (KTP)", "Anggaran Dasar"] },
-        { id: 3, name: "Pembuatan Akta CV", requirements: ["Identitas Diri (KTP)", "Data Pemilik"] },
-        { id: 4, name: "Pembuatan Akta Perkumpulan", requirements: ["Identitas Diri (KTP)", "Data Anggota"] },
+        { id: 1, name: "\nPembuatan Akta Yayasan", requirements: ["\ndentitas Diri (KTP)", "\nAkta Pendiri Yayasan"] },
+        { id: 2, name: "\nPembuatan Akta PT", requirements: ["\nIdentitas Diri (KTP)", "\nAnggaran Dasar"] },
+        { id: 3, name: "\nPembuatan Akta CV", requirements: ["\nIdentitas Diri (KTP)", "\nData Pemilik"] },
+        { id: 4, name: "\nPembuatan Akta Perkumpulan", requirements: ["\nIdentitas Diri (KTP)", "\nData Anggota"] },
     ],
     ppat: [
         { id: 5, name: "Pembuatan SKMHT", requirements: ["Identitas Diri (KTP)", "Data Tanah"] },
