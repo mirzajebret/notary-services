@@ -66,7 +66,7 @@ function submitRequirements() {
         const message = `Layanan: ${selectedService.name}\nPersyaratan: ${requirements}\nPermohonan telah dikirim!`;
 
         // Replace 'YOUR_PHONE_NUMBER' with your actual WhatsApp number (in international format)
-        const whatsappNumber = '+628321245011';
+        const whatsappNumber = '628321245011';
         const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
         // Open WhatsApp
