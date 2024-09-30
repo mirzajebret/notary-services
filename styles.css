@@ -9,9 +9,8 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
-  background-color: #000;
+  background-color: #f4f4f6;
   color: #333;
-  opacity: 0.1;
 }
 
 #header {
